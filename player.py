@@ -12,6 +12,8 @@ class Player(pygame.sprite.Sprite):
         # graphics setup
         self.import_player_assets()
         self.status = 'down'
+        self.frame_index = 0
+        self.animation_speed = 0.15
 
         # movement
         self.direction = pygame.math.Vector2()
@@ -121,6 +123,9 @@ class Player(pygame.sprite.Sprite):
         if self.attacking:
             if current_time - self.attack_time >= self.attack_cooldown:
                 self.attacking = False
+
+    def animate(self):
+        animation = self.animations[self.status]
 
     def update(self):
         self.input()
