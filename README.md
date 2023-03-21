@@ -6,3 +6,9 @@
 
 1. With python and pip installed and while in the root directory run `pip install -r requirements.txt`.
 2. While in root directory run `python main.py`
+
+## Game controls
+
+- SPACE - attack with weapon
+- CTRL - attack with magic spell
+- E - switch magic spell between fireball/heal
