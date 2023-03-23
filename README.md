@@ -12,3 +12,4 @@
 - SPACE - attack with weapon
 - CTRL - attack with magic spell
 - E - switch magic spell between fireball/heal
+- M - pause game and show menu
