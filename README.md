@@ -13,3 +13,9 @@
 - CTRL - attack with magic spell
 - E - switch magic spell between fireball/heal
 - M - pause game and show menu
+
+### Upgrade skills
+
+1. Access menu by pressing `m`
+2. Select skill that you would like to upgrade using left and right arrows
+3. Press space bar to use your exp (located in bottom right) to upgrade a skill
